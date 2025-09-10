@@ -22,41 +22,44 @@ Delete operations and filtering by hospital are handled with **AJAX**.
 ---
 
 ## Technologies Used
-Laravel 10 – backend framework
-jQuery – AJAX interactions
-Bootstrap 5 – frontend design
-MySQL – relational database
+- Laravel 10 – backend framework
+- jQuery – AJAX interactions
+- Bootstrap 5 – frontend design
+- MySQL – relational database
 
-##Features
-CRUD for hospitals and patients.
-Relational data management between patients and hospitals.
-AJAX-based delete and filter for smooth user experience.
-Database seeders for initial data population.
+## Features
+- CRUD for hospitals and patients.
+- Relational data management between patients and hospitals.
+- AJAX-based delete and filter for smooth user experience.
+- Database seeders for initial data population.
 
 ## Installation
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+    git clone https://github.com/yourusername/your-repo.git
+    cd your-repo
 
 2. Install dependencies:
 
-composer install
-npm install   # optional if frontend assets are built locally
+    composer install
+    npm install   # optional if frontend assets are built locally
 
 3. Configure .env with your database
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_db_user
-DB_PASSWORD=your_db_password
+
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=your_database_name
+    DB_USERNAME=your_db_user
+    DB_PASSWORD=your_db_password
 
 4. Run Migration and seeders
-php artisan migrate --seed
+
+    php artisan migrate --seed
 
 5. Start the server
-php artisan serve
+
+    php artisan serve
 
 Access the application at http://localhost:8000.
