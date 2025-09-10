@@ -9,10 +9,10 @@ This is a **Hospital Management System** built with **Laravel**, **jQuery**, and
 The system includes:
 
 - **Authentication** using **username** instead of email.  
-- **Hospital Management (Rumah Sakit)**: CRUD operations with fields:
+- **Hospital Management (Rumah Sakit)**: CRUD operations with fields: <br>
 ID | Nama Rumah Sakit | Alamat | Email | Telepon
 Delete functionality is implemented with **AJAX**.  
-- **Patient Management (Data Pasien)**: CRUD operations with fields:
+- **Patient Management (Data Pasien)**: CRUD operations with fields: <br>
 ID | Nama Pasien | Alamat | No Telpon | ID Rumah Sakit
 
 Each patient is linked to a hospital.  
@@ -37,22 +37,22 @@ Delete operations and filtering by hospital are handled with **AJAX**.
 
 1. Clone the repository:
 
-    git clone https://github.com/yourusername/your-repo.git
+    git clone https://github.com/yourusername/your-repo.git <br>
     cd your-repo
 
 2. Install dependencies:
 
-    composer install
+    composer install <br>
     npm install   # optional if frontend assets are built locally
 
 3. Configure .env with your database
 
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=your_database_name
-    DB_USERNAME=your_db_user
-    DB_PASSWORD=your_db_password
+    DB_CONNECTION=mysql <br>
+    DB_HOST=127.0.0.1<br>
+    DB_PORT=3306<br>
+    DB_DATABASE=your_database_name<br>
+    DB_USERNAME=your_db_user<br>
+    DB_PASSWORD=your_db_password<br>
 
 4. Run Migration and seeders
 
